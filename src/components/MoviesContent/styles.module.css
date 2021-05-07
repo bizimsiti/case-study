@@ -1,0 +1,6 @@
+.moviesContainer {
+  display: flex;
+  width: 100%;
+  background-color: var(--secondary-background);
+  flex-wrap: wrap;
+}

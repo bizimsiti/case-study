@@ -1,0 +1,40 @@
+.navBar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #ff2e63;
+  justify-content: space-around;
+  align-items: center;
+}
+.navBar a {
+  text-decoration: none;
+  color: var(--primary-text);
+  transition: color 0.3s;
+  display: flex;
+}
+.navBar a:hover {
+  color: #252a34;
+}
+.links {
+  flex: 0.5;
+}
+.links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+}
+.links ul li:first-child {
+  margin-right: 20px;
+}
+
+.navBarLeftSide {
+  display: flex;
+  flex: 0.2;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBarLeftSide p {
+  display: flex;
+  align-items: center;
+}
