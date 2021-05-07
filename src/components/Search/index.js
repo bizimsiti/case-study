@@ -3,7 +3,6 @@ import styles from "./styles.module.css";
 import { IoMdSearch } from "react-icons/io";
 import MovieDataContext from "../../context/MovieDataContext";
 function Search() {
-  console.log(process.env.REACT_APP_API_KEY);
   const { setSearch } = useContext(MovieDataContext);
   const handleSearch = (e) => {
     if (e.charCode === 13) {
